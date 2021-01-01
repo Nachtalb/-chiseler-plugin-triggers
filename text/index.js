@@ -1,9 +1,9 @@
 'use strict';
 
-const { compose, hears } = require('telegraf');
+const { compose } = require('telegraf');
 
 /* eslint-disable global-require */
 
 module.exports = compose([
-	require('./runTrigger'),
+  require('./runTrigger'),
 ]);
